@@ -16,5 +16,11 @@ namespace tpmodul2_103082400003
         {
             InitializeComponent();
         }
+
+        private void butSubmit_Click(object sender, EventArgs e)
+        {
+            string namaMahasiswa = InputText.Text;
+            labelOutput.Text = "Halo " + namaMahasiswa;
+        }
     }
 }
